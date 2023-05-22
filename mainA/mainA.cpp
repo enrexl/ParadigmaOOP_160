@@ -4,8 +4,8 @@ using namespace std;
 #include "anak.h"
 #include"ibu.h"
 
-int main()
-{
+int main(){
+
     ibu* varIbu = new ibu("dini");
     ibu* varIbu2 = new ibu("novi");
     anak* varAnak1 = new anak("tono");
@@ -17,10 +17,8 @@ int main()
     varIbu2->tambahAnak(varAnak3);
     varIbu2->tambahAnak(varAnak1);
 
-    varIbu->cetakAnak;
-    varIbu2->cetakAnak;
-
-
+    varIbu->cetakAnak();
+    varIbu2->cetakAnak();
 }
 
 
