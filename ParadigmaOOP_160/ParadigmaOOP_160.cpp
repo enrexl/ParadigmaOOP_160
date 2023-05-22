@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 class mahasiswa {
@@ -20,5 +21,6 @@ public:
 
 int main()
 {
-    mahasiswa mhs(12, "Asroni", 90, 5);
+    mahasiswa mhs(12, "Lia", 90, 5);
+    return 0;
 }
